@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+      "i-button": "../../static/dist/button/index"
+    },
+    "navigationBarTitleText": "天气查询"
+  }

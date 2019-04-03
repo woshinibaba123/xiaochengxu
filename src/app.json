@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/tianqi/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/first/main",
+    "pages/log/main",
+    "pages/count/main",
+    "pages/novelinfo/main",
+    "pages/local/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00b26a",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+   "permission": {
+     "scope.userLocation": {
+       "desc": "你的位置信息将用于小程序位置接口的效果展示"
+     }
+   },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },
+    {
+      "text": "天气",
+      "pagePath": "pages/tianqi/main",
+      "iconPath": "static/tabs/tianqi.png",
+      "selectedIconPath": "static/tabs/tianqi-active.png"
+    },
+     {
+       "text": "地图",
+       "pagePath": "pages/local/main",
+       "iconPath": "static/tabs/localtion.png",
+       "selectedIconPath": "static/tabs/localtion-active.png"
+     },
+    {
+      "text": "小说",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    },
+    {
+      "name": "天气",
+      "pagePath": "pages/tianqi/main",
+      "icon": "static/tabs/tianqi.png",
+      "activeIcon": "static/tabs/tianqi-active.png"
+    },
+    {
+      "name": "地图",
+      "pagePath": "pages/local/main",
+      "icon": "static/tabs/localtion.png",
+      "activeIcon": "static/tabs/localtion-active.png"
+    },
+    {
+      "name": "小说",
+      "pagePath": "pages/logs/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}

@@ -1,0 +1,7 @@
+<template name="2a1da458">
+  <view class="_div data-v-5eb45399">
+    <image src="{{novelinfo.cover}}" alt class="_img data-v-5eb45399 infoimg"></image> <label class="_span data-v-5eb45399 spname">{{ novelinfo.title }}</label>
+    <view class="_p data-v-5eb45399">作者:<label class="_span data-v-5eb45399">{{ novelinfo.author }}</label></view>
+    <i-tag class="_i-tag data-v-5eb45399 i-tags" name="标签一" color="green" type="border"> 标签一 </i-tag>
+  </view>
+</template>

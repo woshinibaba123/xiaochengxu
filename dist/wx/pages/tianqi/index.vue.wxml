@@ -1,0 +1,11 @@
+<template name="ee9b6cb0">
+  <view class="_div data-v-73865201 city"><input type="text" value="{{tianqi}}" bindinput="handleProxy" class="_input data-v-73865201 tianinp" placeholder="请输入城市" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+    <i-button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-button data-v-73865201">查询天气</i-button>
+    <view class="_ul data-v-73865201 tianList">
+      <view class="_h1 data-v-73865201 citytitle">{{ city }}</view>
+      <view wx:key="index" key="{{index}}" wx:for="{{tianqiList}}" wx:for-index="index" wx:for-item="item" class="_li data-v-73865201">
+        <view class="_h1 data-v-73865201">{{ item.date }}</view> <label class="_span data-v-73865201">{{ item.type }}</label> <label class="_span data-v-73865201">{{ item.high }} {{ item.low }}</label>
+      </view>
+    </view>
+  </view>
+</template>

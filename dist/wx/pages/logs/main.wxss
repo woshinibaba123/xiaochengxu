@@ -1,0 +1,31 @@
+@import "../../common/vendor.wxss";
+
+.novelList {
+  padding: 30rpx 40rpx;
+}
+.novelimg {
+  width: 200rpx;
+  height: 300rpx;
+}
+.novelInfo {
+  width: 440rpx;
+  float: right;
+}
+.novelListItem {
+  margin: 20rpx 0;
+}
+.card {
+  font-size: 30rpx;
+  padding: 0rpx 0rpx 20rpx;
+}
+.bookinfo {
+  font-size: 25rpx;
+  color: #aaa;
+  height: 197rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+}

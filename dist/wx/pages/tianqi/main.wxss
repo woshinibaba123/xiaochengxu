@@ -1,0 +1,16 @@
+@import "../../common/vendor.wxss";
+
+.city.data-v-73865201 {
+  text-align: center;
+  line-height: 80rpx;
+}
+.citytitle.data-v-73865201 {
+  text-align: left;
+}
+.tianList.data-v-73865201 {
+  width: 90%;
+  margin: auto;
+}
+.tianList ._li.data-v-73865201 {
+  border-bottom: 2rpx black solid;
+}

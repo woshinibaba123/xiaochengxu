@@ -1,0 +1,12 @@
+<template name="51720380">
+  <view bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}" class="_div data-v-359ab0fe">
+    <view class="_div data-v-359ab0fe userinfo" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <open-data type="userAvatarUrl" style="width:200rpx" class="_open-data data-v-359ab0fe"></open-data>
+      <open-data type="userNickName" lang="zh_CN" class="_open-data data-v-359ab0fe"></open-data>
+    </view>
+    <i-button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-button data-v-359ab0fe">查看天气</i-button>
+    <i-button bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_i-button data-v-359ab0fe">上传文件</i-button> <button open-type="getUserInfo" bindgetuserinfo="handleProxy" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_button data-v-359ab0fe">获取权限</button>
+    <camera device-position="{{isback}}" flash="off" binderror="error" style="width: 100%; height: 300px;" class="_camera data-v-359ab0fe"></camera> <button type="primary" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_button data-v-359ab0fe">拍照</button> <button type="primary" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}" class="_button data-v-359ab0fe">摄像头翻转</button>
+    <image mode="widthFix" src="{{src}}" class="_image data-v-359ab0fe"></image>
+  </view>
+</template>

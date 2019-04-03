@@ -1,0 +1,18 @@
+@import "../../common/vendor.wxss";
+
+.infoimg {
+  width: 400rpx;
+  height: 500rpx;
+  display: block;
+  margin: auto;
+}
+.spname {
+  display: block;
+  color: rgb(119, 12, 219);
+  font-size: 35rpx;
+  text-align: center;
+  margin-top: 25rpx;
+}
+._p {
+  padding: 20rpx;
+}

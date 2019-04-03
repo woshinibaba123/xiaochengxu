@@ -1,0 +1,17 @@
+<import src="/components/card.vue.wxml" /><template name="2d1f6bc6">
+  <view class="_div data-v-63d89576">
+    <i-swipeout wx:key="index" key="{{index}}" i-class="i-swipeout-demo-item" actions="{{actions}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{novelList}}" wx:for-index="index" wx:for-item="item" class="_i-swipeout data-v-63d89576">
+      <view slot="content" class="_view data-v-63d89576">
+        <i-cell i-class="i-cell-padding" title="{{item.bookname}}" label="{{item.book_info}}" class="_i-cell data-v-63d89576"></i-cell>
+      </view>
+    </i-swipeout>
+    <view class="_ul data-v-63d89576 novelList">
+      <view wx:key="index" key="{{index}}" class="_li data-v-63d89576 novelListItem" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}" wx:for="{{novelList}}" wx:for-index="index" wx:for-item="item">
+        <image src="{{item.book_cover}}" alt class="_img data-v-63d89576 novelimg"></image>
+        <view class="_div data-v-63d89576 novelInfo"><template i-class="cardname" data="{{...$root[$kk+'2_'+index], $root}}" is="4fd4a426"></template>
+          <view class="_p data-v-63d89576 bookinfo">{{ item.book_info }}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
